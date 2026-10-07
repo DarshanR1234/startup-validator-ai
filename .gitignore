@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Data (generated at runtime)
+data/runs/
+data/chroma/
+data/langgraph_checkpoints.db
+data/langgraph_checkpoints.db-shm
+data/langgraph_checkpoints.db-wal
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

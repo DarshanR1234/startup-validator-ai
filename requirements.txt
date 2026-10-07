@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-core
+langchain-chroma
+langchain-huggingface
+chromadb
+sentence-transformers
+huggingface-hub
+pydantic
+pydantic-settings
+python-dotenv
+requests
+httpx

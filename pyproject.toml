@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "startup-validator-ai"
+version = "1.0.0"
+description = "AI-powered startup idea validation platform using multi-agent analysis"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain-chroma",
+    "langchain-huggingface",
+    "chromadb",
+    "sentence-transformers",
+    "huggingface-hub",
+    "pydantic",
+    "pydantic-settings",
+    "python-dotenv",
+    "requests",
+    "httpx",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
